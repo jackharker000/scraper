@@ -35,7 +35,7 @@ DIRECT_PDF_BASE = f"{BASE_URL}/directories/CAIE/CAIE-pastpapers/upload/"
 ALLOWED_TYPES: set[str] = {"qp", "ms", "er"}
 
 MAX_CONCURRENT = 5
-DELAY = 0.5  # seconds between page fetches during discovery
+DELAY = 0.1  # seconds between page fetches during discovery
 
 HEADERS = {
     "User-Agent": (
